@@ -7,7 +7,7 @@
                 <v-col
                 cols="12"
                 >
-                    <getweather :city="'Bordeaux'"></getweather>
+                    <getweather :city="'Toulouse'"></getweather>
                 </v-col>
                 <v-col
                 cols="12"
