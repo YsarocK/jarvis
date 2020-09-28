@@ -1,0 +1,33 @@
+{
+  "name": "jarvis",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt",
+    "electron:build": "vue-cli-service electron:build",
+    "electron:serve": "vue-cli-service electron:serve",
+    "generate": "nuxt generate",
+    "postinstall": "electron-builder install-app-deps",
+    "postuninstall": "electron-builder install-app-deps",
+    "start": "nuxt start"
+  },
+  "main": "background.js",
+  "dependencies": {
+    "@vue/cli-service": "^4.5.4",
+    "@vue/cli-shared-utils": "^4.5.4",
+    "axios": "^0.20.0",
+    "nuxt": "^2.14.0",
+    "webpack": "^4.44.1"
+  },
+  "devDependencies": {
+    "@nuxtjs/vuetify": "^1.11.2",
+    "@types/electron-devtools-installer": "^2.2.0",
+    "@types/node": "^12.12.54",
+    "electron": "^9.0.0",
+    "electron-devtools-installer": "^3.1.0",
+    "postcss-loader": "^3.0.0",
+    "vue-cli-plugin-electron-builder": "~2.0.0-rc.4",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
