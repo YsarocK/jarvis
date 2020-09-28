@@ -12,7 +12,7 @@
                 <v-col
                 cols="12"
                 >
-                <nuxt-link to="/about" class="mr-2">A propos</nuxt-link>
+                <nuxt-link to="/about" class="mr-2">A propos de moi</nuxt-link>
                 </v-col>
                 <v-col
                 cols="12"
