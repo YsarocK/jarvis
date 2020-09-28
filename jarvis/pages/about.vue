@@ -47,6 +47,11 @@ export default {
         technologies,
         aboutcontact,
         aboutme
+    }, 
+    head() {
+        return {
+            title: 'A propos';
+        }
     }
 }
 </script>
