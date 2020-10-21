@@ -50,7 +50,7 @@ export default {
     }, 
     head() {
         return {
-            title: 'A propos';
+            title: 'A propos',
         }
     }
 }
