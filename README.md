@@ -1,4 +1,20 @@
-# jarvis
-A personnal project of dashboard/assistance for everyday. Stable version on jarvis.etiennemoureton.fr
+# todolist-nuxt
 
-This is just a personnal project destinated to be a dashboard regrouping all the data i need everyday (weather/news...).
+## Build Setup
+
+```bash
+# install dependencies
+$ npm install
+
+# serve with hot reload at localhost:3000
+$ npm run dev
+
+# build for production and launch server
+$ npm run build
+$ npm run start
+
+# generate static project
+$ npm run generate
+```
+
+For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
