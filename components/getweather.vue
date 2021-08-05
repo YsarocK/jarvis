@@ -33,7 +33,6 @@ export default {
     },
     methods: {
         getWeather() {
-            var request = "https://api.openweathermap.org/data/2.5/weather?q=" + this.city +"&appid=5c69a9fad0434b45be5fc02af56a9ae2";
             axios
                 .get("https://api.openweathermap.org/data/2.5/weather?q=" + this.city +"&appid=4bc1dfad041971b912c3c1bac4c3a4e3")
                 .then(response => {
